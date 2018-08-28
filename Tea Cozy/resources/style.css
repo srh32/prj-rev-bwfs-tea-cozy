@@ -1,0 +1,109 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+header nav {
+  text-decoration: underline;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 740px;
+}
+
+.main {
+  position: relative; top: 70px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  background-color: black;
+  position: absolute;
+  top: 300px;
+  width: 1200px;
+}
+
+.month {
+  position: relative;
+  padding-top: 100px;
+}
+
+.images {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  height: 600px;
+  width: 1000px;
+  padding-left: 120px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.locationsback {
+  position: relative; top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.locations {
+  position: absolute;
+  top: 70px;
+}
+
+.Downtown {
+  position: absolute;
+  top: 145px;
+  left: 110px;
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+.Bayside {
+position: absolute;
+top: 145px;
+left: 450px;
+height: 200px;
+width: 300px;
+opacity: 1;
+background-color: black;
+}
+
+.Oakdale {
+  position: absolute;
+  top: 145px;
+  left: 790px;
+  height: 200px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+.contact {
+  height: 200px;
+}
